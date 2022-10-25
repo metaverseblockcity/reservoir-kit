@@ -19,9 +19,9 @@ const Index: NextPage = () => {
     { contract: '0x0000000000000000000000000000000000000000', symbol: 'ETH' },
     { contract: '0x2f3A40A3db8a7e3D09B0adfEfbCe4f6F81927557', symbol: 'USDC' },
   ])
-  const [nativeOnly, setNativeOnly] = useState(false)
   const deeplinkOpenState = useState(true)
   const hasDeeplink = router.query.deeplink !== undefined
+  const [nativeOnly, setNativeOnly] = useState(false)
 
   return (
     <div
@@ -75,6 +75,10 @@ const Index: NextPage = () => {
           }}
         />
       </div>
+<<<<<<< HEAD
+=======
+      <DeeplinkCheckbox />
+>>>>>>> pedro/res-820-rk-doesnt-factor-royalties-in-profit
       <div>
         <label>Native Only: </label>
         <input
@@ -85,7 +89,10 @@ const Index: NextPage = () => {
           }}
         />
       </div>
+<<<<<<< HEAD
       <DeeplinkCheckbox />
+=======
+>>>>>>> pedro/res-820-rk-doesnt-factor-royalties-in-profit
 
       <ListModal
         trigger={
