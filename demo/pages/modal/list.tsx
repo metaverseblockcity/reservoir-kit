@@ -75,10 +75,7 @@ const Index: NextPage = () => {
           }}
         />
       </div>
-<<<<<<< HEAD
-=======
       <DeeplinkCheckbox />
->>>>>>> pedro/res-820-rk-doesnt-factor-royalties-in-profit
       <div>
         <label>Native Only: </label>
         <input
@@ -89,10 +86,6 @@ const Index: NextPage = () => {
           }}
         />
       </div>
-<<<<<<< HEAD
-      <DeeplinkCheckbox />
-=======
->>>>>>> pedro/res-820-rk-doesnt-factor-royalties-in-profit
 
       <ListModal
         trigger={
